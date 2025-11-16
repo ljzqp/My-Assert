@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aesthete Asset Tracker</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'base': '#f1f5f9', // slate-100
+              'surface': '#ffffff',
+              'primary': '#10b981', // emerald-500
+              'secondary': '#14b8a6', // teal-500
+              'on-surface': '#1e293b', // slate-800
+              'on-surface-secondary': '#64748b', // slate-500
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/"
+  }
+}
+</script>
+</head>
+  <body class="bg-gradient-to-br from-green-50 via-white to-yellow-50 text-on-surface">
+    <div id="root"></div>
+  </body>
+</html>
